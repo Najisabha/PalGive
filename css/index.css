@@ -1,0 +1,36 @@
+
+  body {
+    font-family: 'Cairo', sans-serif;
+  }
+  .actives {
+    background-color: #ae7cff;
+  }
+  #navbarContent ul li:hover {
+    background-color: #ae7cff;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+  }
+  .btn-donate {
+    background-color: #ae7cff;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.3s;
+  }
+  .btn-donate:hover {
+    background-color: #8539ff;
+    color: white;
+  }
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    color: #000000 ;
+    
+  }
+  .dropdown-menu li:hover {
+    background-color: #ae7cff !important;
+  }
+  .dropdown-menu li a:hover {
+    background-color: #ae7cff !important;
+  }
