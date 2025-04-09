@@ -1,0 +1,35 @@
+{
+    "ar": {
+      "home": "الرئيسية",
+      "what_we_do": "ماذا نفعل",
+      "about_us": "من نحن",
+      "contact_us": "اتصل بنا",
+      "Donate_Now": "تبرع الآن",
+      "Reports_Data": "التقارير والبيانات",
+      "About_the_Organization": "عن المنظمة",
+      "Who_We_Are": "من نحن",
+      "Our_vision": "رؤيتنا",
+      "Our-Mission": "مهمتنا",
+      "License": "الرخصة",
+      "Sponsors": "الرعاة",
+      "Our_Team": "فريقنا",
+      "Stories": "قصص"
+    },
+    "en": {
+      "new_item": "New Item",
+      "home": "Home",
+      "what_we_do": "What We Do",
+      "about_us": "About Us",
+      "contact_us": "Contact Us",
+      "Donate_Now": "Donate Now",
+      "Reports_Data": "Reports & Data",
+      "About_the_Organization": "About the Organization",
+      "Who_We_Are": "Who We Are",
+      "Our_vision": "Our Vision",
+      "Our-Mission": "Our Mission",
+      "License": "License",
+      "Sponsors": "Sponsors",
+      "Our_Team": "Our Team",
+      "Stories": "Stories"
+    }
+  }
