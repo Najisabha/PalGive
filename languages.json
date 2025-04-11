@@ -9,11 +9,14 @@
       "About_the_Organization": "عن المنظمة",
       "Who_We_Are": "من نحن",
       "Our_vision": "رؤيتنا",
-      "Our-Mission": "مهمتنا",
+      "Our_Mission": "مهمتنا",
       "License": "الرخصة",
       "Sponsors": "الرعاة",
       "Our_Team": "فريقنا",
-      "Stories": "قصص"
+      "Stories": "قصص",
+      "hero_section_h1": "مرحباً بكم في PALGIVE",
+      "hero_section_p": "نحن نؤمن بأن كل طفل يستحق فرصة",
+      "hero_section_a": "تبرع الآن"
     },
     "en": {
       "new_item": "New Item",
@@ -26,10 +29,13 @@
       "About_the_Organization": "About the Organization",
       "Who_We_Are": "Who We Are",
       "Our_vision": "Our Vision",
-      "Our-Mission": "Our Mission",
+      "Our_Mission": "Our Mission",
       "License": "License",
       "Sponsors": "Sponsors",
       "Our_Team": "Our Team",
-      "Stories": "Stories"
+      "Stories": "Stories",
+      "hero_section_h1": "Welcome to PALGIVE",
+      "hero_section_p": "Your trusted platform for secure and reliable donations.",
+      "hero_section_a": "Donate Now"
     }
   }

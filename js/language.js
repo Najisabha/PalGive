@@ -13,11 +13,14 @@ const translations = {
     "About_the_Organization": "عن المنظمة",
     "Who_We_Are": "من نحن",
     "Our_vision": "رؤيتنا",
-    "Our-Mission": "مهمتنا",
+    "Our_Mission": "مهمتنا",
     "License": "ترخيص",
     "Sponsors": "الرعاة",
     "Our_Team": "فريقنا",
     "Stories": "قصص",
+    "hero_section_h1": "مرحباً بكم في PALGIVE",
+    "hero_section_p": "منصتك الموثوقة للتبرعات الآمنة والموثوقة.",
+    "hero_section_a": "تبرع الآن"
   },
   "en": {
     "home": "Home",
@@ -32,11 +35,14 @@ const translations = {
     "About_the_Organization": "About the Organization",
     "Who_We_Are": "Who We Are",
     "Our_vision": "Our Vision",
-    "Our-Mission": "Our Mission",
+    "Our_Mission": "Our Mission",
     "License": "License",
     "Sponsors": "Sponsors",
     "Our_Team": "Our Team",
-    "Stories": "Stories"
+    "Stories": "Stories",
+    "hero_section_h1": "Welcome to PALGIVE",
+    "hero_section_p": "Your trusted platform for secure and reliable donations.",
+    "hero_section_a": "Donate Now"
   }
 };
 
@@ -68,16 +74,15 @@ function updateTexts() {
   document.getElementById("About_the_Organization").textContent = translations[language].About_the_Organization;
   document.getElementById("Who_We_Are").textContent = translations[language].Who_We_Are;
   document.getElementById("Our_vision").textContent = translations[language].Our_vision;
-  document.getElementById("Our-Mission").textContent = translations[language]["Our-Mission"];
+  document.getElementById("Our_Mission").textContent = translations[language]["Our_Mission"];
   document.getElementById("License").textContent = translations[language].License;
   document.getElementById("Sponsors").textContent = translations[language].Sponsors;
   document.getElementById("Our_Team").textContent = translations[language].Our_Team;
   document.getElementById("Stories").textContent = translations[language].Stories;
-
-  // Check if "new_item" exists in translations before updating
-  if (translations[language].new_item) {
-    document.getElementById("new_item").textContent = translations[language].new_item;
-  }
+  document.getElementById("hero_section_h1").textContent = translations[language].hero_section_h1;
+  document.getElementById("hero_section_p").textContent = translations[language].hero_section_p;
+  document.getElementById("hero_section_a").textContent = translations[language].hero_section_a;
+  
 }
 
 // Update page direction based on the selected language
