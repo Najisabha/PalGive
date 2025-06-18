@@ -107,3 +107,7 @@ document.addEventListener('DOMContentLoaded', function () {
   updateDirection();
   updateButtonText(); // Make sure to update the button text when the page loads
 });
+// copyright 2025 PalGive
+// For more information, visit our website at https://palgive.org
+let year = new Date().getFullYear();
+document.getElementById("copyright").innerHTML = `&copy; ${year} PalGive. All rights reserved.`;

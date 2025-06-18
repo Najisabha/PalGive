@@ -11,6 +11,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="./img/logo.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./img/logo.png">
     <title>PALGIVE | الرئيسية</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/index.css">
   </head>
@@ -75,7 +76,7 @@
       </div>
     </nav>
     <!-- 🔹 Hero Section -->
-     <section class="hero-section">
+     <section class="hero-section" id="hero_section">
       <div class="container-fluid overlay text-center ">
         <div class="row align-items-center justify-content-center mt-5">
           <div class="col-md-6 col-lg-5 col-xl-4">
@@ -86,9 +87,160 @@
         </div>
       </div>
      </section>
-     <section class="">
-
+    <!-- 🔹 What do we do Section -->
+     <section class="What_do_we_do" id="What_do_we_do_section">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-12">
+            <h2 id="What_do_we_do_h2">What do we do?</h2>
+            <p id="What_do_we_do_p">We provide a secure and reliable platform for online donations, ensuring that your contributions make a real difference.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card mb-4">
+              <img src="./img/works/work  (10).jpg" class="card-img-top" alt="Secure Donations">
+              <div class="card-body">
+                <h5 class="card-title" id="secure_donations_title">Secure Donations</h5>
+                <p class="card-text" id="secure_donations_text">Your donations are processed securely, ensuring your personal information is protected.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card mb-4 ">
+              <img src="./img/works/work  (100).jpg" class="card-img-top" alt="Transparent Process">
+              <div class="card-body">
+                <h5 class="card-title" id="transparent_process_title">Transparent Process</h5>
+                <p class="card-text" id="transparent_process_text">We maintain transparency in our operations, providing detailed reports on how donations are utilized.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card mb-4">
+              <img src="./img/works/work  (11).jpg" class="card-img-top" alt="Impactful Projects">
+              <div class="card-body">
+                <h5 class="card-title" id="impactful_projects_title">Impactful Projects</h5>
+                <p class="card-text" id="impactful_projects_text">We support various projects that aim to make a positive impact in the community, ensuring your donations reach those in need.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
      </section>
+    <!-- 🔹 stories Section -->
+      <section class="stories-section">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-md-12">
+              <h2 id="stories_section_h2">Stories</h2>
+              <p id="stories_section_p">Discover inspiring stories of individuals and communities that have benefited from your generous donations.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <div class="card mb-4">
+                <img src="./img/works/work  (66).jpg" class="card-img-top" alt="Story 1">
+                <div class="card-body">
+                  <h5 class="card-title" id="story1_title">Empowering Lives</h5>
+                  <p class="card-text" id="story1_text">Learn how your donations have empowered individuals to achieve their dreams and improve their lives.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card mb-4">
+                <img src="./img/works/work  (55).jpg" class="card-img-top" alt="Story 2">
+                <div class="card-body">
+                  <h5 class="card-title" id="story2_title">Building Communities</h5>
+                  <p class="card-text" id="story2_text">See how your contributions have helped build stronger communities and foster a sense of belonging.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card mb-4">
+                <img src="./img/works/work  (77).jpg" class="card-img-top" alt="Story 3">
+                <div class="card-body">
+                  <h5 class="card-title" id="story3_title">Changing Lives</h5>
+                  <p class="card-text" id="story3_text">Discover the transformative impact your donations have had on the lives of those in need.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- 🔹 Contact Us Section -->
+    <section class="contact-us-section">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-12">
+            <h2 id="contact_us_section_h2">Contact Us</h2>
+            <p id="contact_us_section_p">We would love to hear from you! If you have any questions or feedback, please reach out to us.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label" id="name_label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label" id="email_label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label" id="message_label">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Your message here..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" id="submit_button">Submit</button>
+            </form>
+          </div>
+          <div class="col-md-6 mb-4 contact_info ">
+            <h5 id="contact_info_h5">Contact Information</h5>
+            <p id="contact_info_p">For any inquiries, please contact us at:</p>
+            <ul class="list-unstyled">
+              <li><i class="fas fa-envelope"></i> Email: <a href="mailto:info@palgive.com " id="contact_email"> info@palgive.com </a></li>
+              <li><i class="fas fa-phone"></i> Phone: <a href="tel:+1234567890" id="contact_phone">+123 456 7890</a></li>
+              <li><i class="fas fa-map-marker-alt"></i> Address: <span id="contact_address">123 Donation St, Charity City, Country</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 🔹 Footer -->
+    <footer class=" text-center text-lg-start" id="footer">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase" id="footer_h5">About PALGIVE</h5>
+            <p id="footer_p">PALGIVE is a trusted platform for secure and reliable online donations, dedicated to making a positive impact in the community.</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase" id="footer_h5_2">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" id="footer_link_1">Home</a></li>
+              <li><a href="#" id="footer_link_2">What We Do</a></li>
+              <li><a href="#" id="footer_link_3">About Us</a></li>
+              <li><a href="#" id="footer_link_4">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase" id="footer_h5_3">Follow Us</h5>
+            <ul class="list-unstyled d-flex justify-content-center">
+              <li><a href="#" class="me-4 text-reset"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#" class="me-4 text-reset"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#" class="me-4 text-reset"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#" class="me-4 text-reset"><i class="fab fa-linkedin-in"></i></a></li>
+              <li><a href="#" class="me-4 text-reset"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="text-center p-3 bg-light" id="footer_text"> 
+        <p  id="copyright"></p>
+      </div>
+    </footer>
     <!-- Link to external JavaScript file -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
     <script src="./js/language.js"></script>
