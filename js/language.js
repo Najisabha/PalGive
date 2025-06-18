@@ -11,7 +11,6 @@ const translations = {
     "navbar_title": "PALGIVE",
     "Reports_&_Data": "تقارير وبيانات",
     "About_the_Organization": "عن المنظمة",
-    "Who_We_Are": "من نحن",
     "Our_vision": "رؤيتنا",
     "Our_Mission": "مهمتنا",
     "License": "ترخيص",
@@ -33,7 +32,6 @@ const translations = {
     "navbar_title": "PALGIVE",
     "Reports_&_Data": "Reports & Data",
     "About_the_Organization": "About the Organization",
-    "Who_We_Are": "Who We Are",
     "Our_vision": "Our Vision",
     "Our_Mission": "Our Mission",
     "License": "License",
@@ -72,7 +70,6 @@ function updateTexts() {
   document.getElementById("Donate_Now").textContent = translations[language].Donate_Now;
   document.getElementById("Reports_&_Data").textContent = translations[language]["Reports_&_Data"];
   document.getElementById("About_the_Organization").textContent = translations[language].About_the_Organization;
-  document.getElementById("Who_We_Are").textContent = translations[language].Who_We_Are;
   document.getElementById("Our_vision").textContent = translations[language].Our_vision;
   document.getElementById("Our_Mission").textContent = translations[language]["Our_Mission"];
   document.getElementById("License").textContent = translations[language].License;
