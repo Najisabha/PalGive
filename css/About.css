@@ -1,0 +1,53 @@
+/* About Us Section */
+#about_us_section {
+    background-color: rgb(0, 128, 255);
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+#about_us_section img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#our_vision_section{
+    background-color: rgb(21, 138, 255);
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+#our_vision_section img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#our_mission_section{
+    background-color: rgb(51, 153, 255);
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+#our_mission_section img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#license_section{
+    background-color: rgb(0, 128, 255);
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+#license_section img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
