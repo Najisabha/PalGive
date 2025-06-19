@@ -173,20 +173,23 @@
         </div>
         <div class="row">
           <div class="col-md-6 mb-4">
-            <form>
+            <form id="contact-form">
               <div class="mb-3">
-                <label for="name" class="form-label" id="name_label"> اسم </label>
-                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                <label for="name" class="form-label" id="name_label">اسم</label>
+                <input type="text" class="form-control" name="from_name" id="name" placeholder="أدخل اسمك" required>
               </div>
+
               <div class="mb-3">
-                <label for="email" class="form-label" id="email_label"> بريد إلكتروني </label>
-                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                <label for="email" class="form-label" id="email_label">بريد إلكتروني</label>
+                <input type="email" class="form-control" name="from_email" id="email" placeholder="أدخل بريدك الإلكتروني" required>
               </div>
+
               <div class="mb-3">
-                <label for="message" class="form-label" id="message_label"> رسالة </label>
-                <textarea class="form-control" id="message" rows="4" placeholder="Your message here..." required></textarea>
+                <label for="message" class="form-label" id="message_label">رسالة</label>
+                <textarea class="form-control" name="message" id="message" rows="4" placeholder="اكتب رسالتك..." required></textarea>
               </div>
-              <button type="submit" class="btn btn-primary" id="submit_button">Submit</button>
+
+              <button type="submit" class="btn btn-primary" id="submit_button">إرسال</button>
             </form>
           </div>
           <div class="col-md-6 mb-4 contact_info ">
@@ -236,6 +239,8 @@
     </footer>
     <!-- Link to external JavaScript file -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="./js/sendmail.js"></script>
     <script src="./js/language.js"></script>
     <script src="./js/script.js"></script>
   </body>
