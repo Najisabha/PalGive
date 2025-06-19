@@ -13,7 +13,7 @@
     <title>PALGIVE | صفحة التبرع  </title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/About.css">
+    <link rel="stylesheet" href="./css/Donate_Now.css">
     <link rel="stylesheet" href="./css/index.css">
   </head>
   <body>
@@ -69,6 +69,64 @@
         </div>
       </div>
     </nav>
+    <!-- 🔹 Donate Now Section -->
+    <section class="donate-now-section">
+      <div class="container">
+        <div class="row ">
+          <div class="col-md-6 text-center">
+            <h1 id="donate_now_h1">تبرع الآن</h1>
+            <p id="donate_now_p">ساهم في إحداث فرق في حياة الآخرين من خلال تبرعك السخي.</p>
+            <form id="donationForm">
+              <div class="row">
+              <div class="col-lg-4 mb-3">
+                <label for="donationAmount" class="form-label" id="donationAmountLabel">مبلغ التبرع</label>
+                <input type="number" class="form-control" id="donationAmount" placeholder="أدخل مبلغ التبرع" required>
+              </div>
+              <div class="col-lg-4 mb-3">
+                <label for="donorName" class="form-label" id="donorNameLabel">اسم المتبرع</label>
+                <input type="text" class="form-control" id="donorName" placeholder="أدخل اسمك" required>
+              </div>
+              <div class="col-lg-4 mb-3">
+                <label for="donorEmail" class="form-label" id="donorEmailLabel">البريد الإلكتروني للمتبرع</label>
+                <input type="email" class="form-control" id="donorEmail" placeholder="أدخل بريدك الإلكتروني" required>
+              </div>
+              <div class="mb-3">
+                <label for="donationMessage" class="form-label" id="donationMessageLabel">رسالة التبرع (اختياري)</label>
+                <textarea class="form-control" id="donationMessage" rows="3" placeholder="أضف رسالة إذا رغبت"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" id="submitBtn">إرسال التبرع</button>
+              </div>
+            </form>
+          </div>
+          <!-- paymant VISA -->
+          <div class="col-md-6 text-center mt-5">
+            <img src="./img/Visa.svg.png" alt="VISA Payment" class="img-fluid mb-3" id="paymentImage">
+            <p id="paymentInfo">يمكنك الدفع باستخدام بطاقات VISA و Mastercard </p>
+            <form action="">
+              <div class="row">
+                <div class=" col-lg-6 mb-3">
+                  <label for="cardNumber" class="form-label" id="cardNumberLabel">رقم البطاقة</label>
+                  <input type="text" class="form-control" id="cardNumber" placeholder="أدخل رقم بطاقتك" required>
+                </div>
+                <div class="col-lg-6 mb-3">
+                  <label for="cardHolderName" class="form-label" id="cardHolderNameLabel">اسم حامل البطاقة</label>
+                  <input type="text" class="form-control" id="cardHolderName" placeholder="أدخل اسم حامل البطاقة" required>
+                </div>
+                <div class="col-lg-6 mb-3">
+                  <label for="expiryDate" class="form-label" id="expiryDateLabel">تاريخ الانتهاء</label>
+                  <input type="text" class="form-control" id="expiryDate" placeholder="MM/YY" required>
+                </div>
+                <div class="col-lg-6 mb-3">
+                  <label for="cvv" class="form-label" id="cvvLabel">CVV</label>
+                  <input type="text" class="form-control" id="cvv" placeholder="أدخل CVV الخاص بك" required>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-success mt-3" id="payBtn">ادفع الآن</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- 🔹 Footer -->
     <footer class=" text-center text-lg-start" id="footer">
       <div class="container p-4">
