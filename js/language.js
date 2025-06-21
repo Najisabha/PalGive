@@ -20,7 +20,6 @@ const translations = {
     "Stories": "قصص",
     // Hero section
     "hero_section_h1": "مرحباً بكم في PALGIVE",
-    "hero_section_p": "منصتك الموثوقة للتبرعات الآمنة والموثوقة.",
     "hero_section_a": "تبرع الآن",
     // What_do_we_do
     "What_do_we_do_h2": "ماذا نفعل؟",
@@ -70,7 +69,6 @@ const translations = {
     "Stories": "Stories",
     // Hero section
     "hero_section_h1": "Welcome to PALGIVE",
-    "hero_section_p": "Your trusted platform for secure and reliable donations.",
     "hero_section_a": "Donate Now",
     // What_do_we_do
     "What_do_we_do_h2": "What We Do",
@@ -148,7 +146,6 @@ function updateTexts() {
   document.getElementById("copyright").textContent = translations[language].copyright;
   // hero section
   document.getElementById("hero_section_h1").textContent = translations[language].hero_section_h1;
-  document.getElementById("hero_section_p").textContent = translations[language].hero_section_p;
   document.getElementById("hero_section_a").textContent = translations[language].hero_section_a;
   // What do we do section
   document.getElementById("What_do_we_do_h2").textContent = translations[language].What_do_we_do_h2;
