@@ -82,5 +82,6 @@ function updateTexts() {
     document.getElementById("footer_p").textContent = translations_our_team[language].footer_p;
     document.getElementById("copyright").textContent = translations_our_team[language].copyright;
     // 
+    
 
 }
