@@ -56,7 +56,6 @@ let translations_our_team = {
     }
 }
 function updateTexts() {
-    
     console.log('تحديث النصوص للغة: ' + language);  // Debugging line
     // Update navigation links
         // navigation links
