@@ -14,7 +14,7 @@ let translations_our_team = {
         "License": "ترخيص",
         "Sponsors": "الرعاة",
         "Our_Team": "فريقنا",
-        "programs": "قصص",
+        "Our_programs": " برامجنا ",
         // Footer links
         "footer_link_1": "الرئيسية",
         "footer_link_2": "ماذا نفعل",
@@ -42,7 +42,7 @@ let translations_our_team = {
         "License": "License",
         "Sponsors": "Sponsors",
         "Our_Team": "Our Team",
-        "programs": "programs",
+        "Our_programs": "programs",
         // Footer links
         "footer_link_1": "Home",
         "footer_link_2": "What We Do",
@@ -70,7 +70,7 @@ function updateTexts() {
     document.getElementById("License").textContent = translations_our_team[language].License;
     document.getElementById("Sponsors").textContent = translations_our_team[language].Sponsors;
     document.getElementById("Our_Team").textContent = translations_our_team[language].Our_Team;
-    document.getElementById("programs").textContent = translations_our_team[language].programs;
+    document.getElementById("Our_programs").textContent = translations_our_team[language].Our_programs;
     // Footer links
     document.getElementById("footer_link_1").textContent = translations_our_team[language].footer_link_1;
     document.getElementById("footer_link_2").textContent = translations_our_team[language].footer_link_2;
@@ -81,7 +81,5 @@ function updateTexts() {
     document.getElementById("footer_h5").textContent = translations_our_team[language].footer_h5;
     document.getElementById("footer_p").textContent = translations_our_team[language].footer_p;
     document.getElementById("copyright").textContent = translations_our_team[language].copyright;
-    // 
-    
 
 }
