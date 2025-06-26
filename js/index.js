@@ -31,6 +31,12 @@ let translations = {
     "hero_section_a": "تبرع الآن",
     // What_do_we_do
     "What_do_we_do_h2": "ماذا نفعل؟",
+    "secure_donations_title": "التمكين الاقتصادي والاجتماعي",
+    "secure_donations_text": "من خلال برامج تدريب مهني وريادي للشباب والنساء، إضافة إلى تمويل مشاريع صغيرة، وإدارة حملات دعم وتشبيك لأصحاب الأفكار المجتمعية.",
+    "transparent_process_title": "التوعية والحقوق",
+    "transparent_process_text": "من المهم تعزيز حقوق الأشخاص ذوي الإعاقة وبناء حملات مناصرة مجتمعية وتنفيذ سلسلة تدريبات على الحقوق المدنية والاجتماعية.",
+    "impactful_projects_title": "العطاء المجتمعي المنظم",
+    "impactful_projects_text": "نعمل من أجل بناء مجتمع فلسطيني متماسك، عادل، ومُمَكَّن من حقوقه. نحن نؤمن بأن العطاء المجتمعي المنظم هو مفتاح لبناء مستقبل كريم لكل فرد، وخاصة الأشخاص المهمَّشين والأكثر تأثرًا من الاحتلال والظروف الاجتماعية والاقتصادية.",
     // programs_section
     "programs_section_h2": "برامجنا",
     "programs_section_card1_title": "برنامج المشاركة المدنية",
@@ -117,7 +123,12 @@ let translations = {
     "hero_section_a": "Donate Now",
     // What_do_we_do
     "What_do_we_do_h2": "What We Do",
-    "What_do_we_do_p": "We provide a secure and reliable online donation platform, ensuring your contributions make a real difference.",
+    "secure_donations_title": "Economic and Social Empowerment",
+    "secure_donations_text": "Through vocational and entrepreneurial training programs for youth and women, in addition to financing small projects, and managing support and networking campaigns for community-based idea owners.",
+    "transparent_process_title": "Awareness and Rights",
+    "transparent_process_text": "It is important to promote the rights of persons with disabilities and build community advocacy campaigns and implement a series of training on civil and social rights.",
+    "impactful_projects_title": "Organized Community Giving",
+    "impactful_projects_text": "We work to build a cohesive, just, and rights-empowered Palestinian society. We believe that organized community giving is the key to building a dignified future for every individual, especially the marginalized and those most affected by occupation and social and economic conditions.",
     // programs_section
     "programs_section_h2": "Our programs",
     "programs_section_card1_title": "Civic Engagement Program",
@@ -205,7 +216,12 @@ function updateTexts() {
   document.getElementById("hero_section_a").textContent = translations[language].hero_section_a;
   // What do we do section
   document.getElementById("What_do_we_do_h2").textContent = translations[language].What_do_we_do_h2;
-  document.getElementById("What_do_we_do_p").textContent = translations[language].What_do_we_do_p;
+  document.getElementById("secure_donations_title").textContent = translations[language].secure_donations_title;
+  document.getElementById("secure_donations_text").textContent = translations[language].secure_donations_text;
+  document.getElementById("transparent_process_title").textContent = translations[language].transparent_process_title;
+  document.getElementById("transparent_process_text").textContent = translations[language].transparent_process_text;
+  document.getElementById("impactful_projects_title").textContent = translations[language].impactful_projects_title;
+  document.getElementById("impactful_projects_text").textContent = translations[language].impactful_projects_text;
   // programs section
   document.getElementById("programs_section_h2").textContent = translations[language].programs_section_h2;
   document.getElementById("programs_section_card1_title").textContent = translations[language].programs_section_card1_title;
