@@ -81,8 +81,11 @@ let translations = {
     "contact_us_section_h2": "تواصل معنا",
     "contact_us_section_p": "إذا كان لديك أي استفسارات أو تحتاج إلى مساعدة، فلا تتردد في الاتصال بنا.",
     "name_label": "الاسم:",
+    "name" : "أدخل اسمك",
     "email_label": "البريد الإلكتروني:",
+    "email" : "أدخل بريدك الإلكتروني",
     "message_label": "رسالة:",
+    "message" : "... اكتب رسالتك",
     "submit_button": "إرسال",
     "contact_info_h5": "معلومات الاتصال",
     "contact_info_p": "لأي استفسارات، يرجى الاتصال بنا على البريد الإلكتروني أو رقم الهاتف التالي.",
@@ -170,11 +173,32 @@ let translations = {
     "programs_section_card6_li2": "Training on communication skills, conflict management, and financial awareness.",
     "programs_section_card6_li3": "Based on local experiences and globally adapted programs for the Palestinian community.",
     // contact us section
+    //     <form id="contact-form">
+    //   <div class="mb-3">
+    //     <label for="name" class="form-label" id="name_label"></label>
+    //     <input type="text" class="form-control" name="from_name" id="name" placeholder="Enter your name" required>
+    //   </div>
+
+    //   <div class="mb-3">
+    //     <label for="email" class="form-label" id="email_label"></label>
+    //     <input type="email" class="form-control" name="from_email" id="email" placeholder="Enter your email" required>
+    //   </div>
+
+    //   <div class="mb-3">
+    //     <label for="message" class="form-label" id="message_label"></label>
+    //     <textarea class="form-control" name="message" id="message" rows="4" placeholder="... Write your message" required></textarea>
+    //   </div>
+
+    //   <button type="submit" class="btn btn-primary" id="submit_button">إرسال</button>
+    // </form>
     "contact_us_section_h2": "Contact Us",
     "contact_us_section_p": "If you have any inquiries or need assistance, feel free to reach out to us.",
     "name_label": "Name:",
+    "name" : "Enter your name",
     "email_label": "Email:",
+    "email" : "Enter your email",
     "message_label": "Message:",
+    "message" : "... Write your message",
     "submit_button": "Submit",
     "contact_info_h5": "Contact Information",
     "contact_info_p": "For any inquiries, please contact us at the following email or phone number.",
@@ -266,8 +290,11 @@ function updateTexts() {
   document.getElementById("contact_us_section_h2").textContent = translations[language].contact_us_section_h2;
   document.getElementById("contact_us_section_p").textContent = translations[language].contact_us_section_p;
   document.getElementById("name_label").textContent = translations[language].name_label;
+  document.getElementById("name").placeholder = translations[language].name;
   document.getElementById("email_label").textContent = translations[language].email_label;
+  document.getElementById("email").placeholder = translations[language].email;
   document.getElementById("message_label").textContent = translations[language].message_label;
+  document.getElementById("message").placeholder = translations[language].message;
   document.getElementById("submit_button").textContent = translations[language].submit_button;
   document.getElementById("contact_info_h5").textContent = translations[language].contact_info_h5;
   document.getElementById("contact_info_p").textContent = translations[language].contact_info_p;
